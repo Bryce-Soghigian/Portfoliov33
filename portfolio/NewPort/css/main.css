@@ -75,3 +75,8 @@
 #right{
     justify-content: flex-end;
 }
+/*profile pic*/
+.avatar-img{
+    height: 100px;
+  
+}
