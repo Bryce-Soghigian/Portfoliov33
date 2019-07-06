@@ -20,8 +20,14 @@
   text-decoration: none;
   color:#114006;
   padding-bottom: 15px;
+  padding:5px;
+  border-radius: 9%;
   
 
+}
+a:hover{
+    background-color:#114006;
+    color:white;
 }
 
 /*btn Styles*/
@@ -78,9 +84,14 @@
 #right{
     justify-content: flex-end;
 }
+
 /*profile pic*/
 .avatar-img{
     height: 100px;
     width:100px;
   
+}
+button:hover{
+    background-color:#114006;
+    color:white;
 }
