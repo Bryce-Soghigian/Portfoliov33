@@ -47,7 +47,9 @@ height:45%;
     margin: 0 auto;
 }
 
-
+.contact-form{
+    border: 5px solid #FFF
+}
 
 
 .item {
@@ -79,7 +81,8 @@ button:hover{
 };
 
 .btn{
-    width:40%;
+    border-radius: 5%;
     color:#114006;
     background-color:#CEF5c4;
+    width:10%;
 }

@@ -4,7 +4,8 @@
   display: flex;
   justify-content: space-around;
   margin: auto;
-  width: 62%;
+  width: 100%;
+
  
 }
 @media (max-width: 500px) {
@@ -28,8 +29,17 @@
 a:hover{
     background-color:#114006;
     color:white;
+    transition: .7s;
 }
 
+@media (max-width: 500px) {
+    .container {
+      display: flex;
+      flex-direction: column; /* For vertical placement of items */
+      justify-content: center;
+      align-items: center;
+
+    }}
 /*btn Styles*/
 .Language-btn{
     background-color:#CEF5C4;
@@ -68,9 +78,23 @@ a:hover{
     color:#294D20;
     font-size: 3.7rem;
 }
+
+@media (max-width: 500px) {
+    .Bryce {
+      font-size: 2.5rem;
+    }
+  }
+@media(min-width: 950px){
+    .Bryce {
+        font-size:3rem;
+    }
+}
+
+
 /* Div manipulation*/
 .container{
     display:flex;
+    margin-bottom: 0%;
 }
 .container .item{
     display:flex;
@@ -81,17 +105,40 @@ a:hover{
     width:40%;
 }
 
+
+@media(max-width:500px){
+.item{
+    margin-bottom: 1%;
+}
+}
+
+
 #right{
     justify-content: flex-end;
 }
 
 /*profile pic*/
+
 .avatar-img{
-    height: 100px;
-    width:100px;
+    height: 150px;
+    width:150px;
   
+
+}
+@media(max-width:500px){
+    .avatar-img{
+        width:100px;
+        height:100px;
+    }
+}
+@media(min-width:950px){
+.avatar-img{
+    height: 200px;
+    width: 200px;
+}
 }
 button:hover{
     background-color:#114006;
     color:white;
+    transition: 0.7s;
 }
